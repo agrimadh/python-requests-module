@@ -1,0 +1,7 @@
+2023-03-18 08:26:57       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.30.0', 'api_key': '************************************9ea0', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2023-03-18 08:26:57       meraki:    DEBUG > {'tags': ['organizations', 'configure', 'admins'], 'operation': 'getOrganizationAdmins', 'method': 'GET', 'url': '/organizations/566327653141842188/admins', 'params': None}
+2023-03-18 08:26:57       meraki:     INFO > GET https://api.meraki.com/api/v1/organizations/566327653141842188/admins
+2023-03-18 08:26:58       meraki:     INFO > organizations, getOrganizationAdmins - 200 OK
+2023-03-18 08:26:58       meraki:    DEBUG > {'tags': ['organizations', 'configure', 'inventory', 'devices'], 'operation': 'getOrganizationInventoryDevices', 'page': 1}
+2023-03-18 08:26:58       meraki:     INFO > GET https://api.meraki.com/api/v1/organizations/566327653141842188/inventory/devices
+2023-03-18 08:26:58       meraki:     INFO > organizations, getOrganizationInventoryDevices; page 1 - 200 OK
